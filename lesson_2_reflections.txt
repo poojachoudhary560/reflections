@@ -1,0 +1,19 @@
+What happens when you initialize a repository? why do you need to do it?
+A repository is always created in a directory. The directory folder may contain many other sub-folders.
+We initilaze a repository using git init - This command makes the directory into a repository
+We initialize a repository s that we can save various versions of the projects we have. We cannot do that in a folder. We need a repository to do that
+
+When repository is initialized, it do not have any commits
+
+Staging area
+working directory contains files
+when we create a repository in that directory, initially the repository cntains no files which are present in working directory
+Then you yourself would have to commit these files in working directory to repository
+But as git allows you this flexibility to decide which files you want to commit, thus this introduces the concept of staging area
+Only those files which you add to the staging area, will get commited.
+You add these files using 
+git add filename
+if by mistake you add a wrong file, you can use git reset
+Thus staging area is different from working directory as working dir is just a folder with all files
+Repository contains all files which have been committed
+Staging area is a place in between both of them and helps you add files from working dir to repository
