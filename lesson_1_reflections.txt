@@ -1,0 +1,39 @@
+hi
+this viewing using diff
+is helpful
+as we can compare between 
+2 versions of a file
+If the older version was better, 
+we can switch back 
+to it.
+This gives us an opportunty
+to experiment with stuff
+and later we can reflect.
+
+But note that using diff data should not be in one line as longer lines are not preffered here. Because here it will just tell us where error exists and then we will have to look throug everything on our own
+
+Yes it will make you an effecient programmar, as version control will help you move anywhere in the past and you can reach any state of your file
+Version Control is provided by many services like google docs, dropbox and wikipedia
+
+commands
+git log: git log displays all the commits which have occured since beginning, which means it displays the complete hhistory
+its shows the following:
+commit id
+date 
+author
+message
+
+git diff: it shows the difference between 2 commits by displaying additions using + sign and deletions using - sign
+
+How version control makes me more confident about making changes?
+Yes Ia completely agree that version control makes me more and more confident about making changes in my project as it gives me the flexibility to move back and forth in case I have made any change to my code or if after modification I bug is generated. So version control acts as a support for such situations. It reallly gets our back.
+
+I have set up my workspace for ease of user.
+In setting up workspace, I configured the following
+- look and feel of bash
+- auto completion files
+- editor default sublime
+- some other commands
+So now i can use git for my google scripts, javascripts and other cloud platform and API and android projects
+It gives me flexibility to experiment and to move forward and backward
+Thanks git! your the best
